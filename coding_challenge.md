@@ -19,6 +19,8 @@ The goal of the test, is to build a contact manager app. It has three screens:
 - Add contact. This screen captures data for the profile. Specifically, the image, user name, phone and email address. 
 - Contact details. Clicking on an individual contact from the list screen should display this screen. All profile data should be shown - photo, name, email, phone.
 
+As part of the code we want to add Mocha tests for each endpoint, to test good and bad data sent to the endpoints. Also, please include Istanbul in your tests, with that tool we want to guarantee all lines in your code are tested by Mocha.
+
 
 Technical spec
 --------------
@@ -29,6 +31,8 @@ Technical spec
 - SailsJS
 - MySQL on AWS RDS
 - S3 for the photo
+- Mocha
+- Istanbul
 
 
 ### Frontend
